@@ -1,0 +1,9 @@
+name = "GalaxyBrain"
+uuid = "25ddbe4d-0058-4ca6-a349-d40aaa747e42"
+authors = ["OTDE <mail@sethchapman.com>"]
+version = "0.1.0"
+
+[deps]
+MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
+Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
