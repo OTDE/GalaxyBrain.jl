@@ -11,7 +11,7 @@ macro bf_str(program::String)
     end
     brainfuck_function = quote
         function (; input::Union{IO,AbstractString}="", output::IO=stdout,
-                  index::Int=1, memory_size::Integer=typemax(UInt16))
+                  index::Int=1, memory_size::Int=30000)
             memory = repeat([zero(UInt8)], memory_size)
             characters = input isa AbstractString ? IOBuffer(input) : input
         end
