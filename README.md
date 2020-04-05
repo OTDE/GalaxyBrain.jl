@@ -11,6 +11,10 @@ From the Julia REPL:
 
 `pkg> add GalaxyBrain`
 
+(As soon as the General Registry lets me in. Until then:)
+
+`julia> using Pkg; Pkg.add("https://github.com/OTDE/GalaxyBrain.jl.git")`
+
 ## About
 
 GalaxyBrain is a parse-time transpiler for the [Brainfuck](https://en.wikipedia.org/wiki/Brainfuck) programming language. It allows you to embed Brainfuck code directly into your Julia code, using the string macro `bf""`. This macro unrolls into an anonymous function during parse time, accepting the following keyword arguments:
