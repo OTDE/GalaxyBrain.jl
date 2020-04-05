@@ -1,11 +1,15 @@
 # GalaxyBrain.jl
 
+[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+[![Build Status](https://travis-ci.com/OTDE/GalaxyBrain.jl.svg?branch=master)](https://travis-ci.com/OTDE/GalaxyBrain.jl)
+[![Codecov](https://codecov.io/gh/OTDE/GalaxyBrain.jl/branch/master/graph/badge.svg)](https://codecov.io/gh/OTDE/GalaxyBrain.jl)
+
 [![galaxybf.jpg](https://i.postimg.cc/gJMB22MY/galaxybf.jpg)](https://postimg.cc/9R7BxC5S)
 
 ## Installing
 From the Julia REPL:
 
-`pkg> add GalaxyBrain`
+`julia> using Pkg; Pkg.add(PackageSpec(url="https://github.com/OTDE/GalaxyBrain.jl.git"))`
 
 ## About
 
