@@ -1,5 +1,5 @@
 abstract type AbstractInstruction end
-abstract type AbstractBFInstruction end
+abstract type AbstractBFInstruction <: AbstractInstruction end
 
 const OP_CODES = Symbol.(['+', '-', '>', '<', '.', ',', '[', ']'])
 const INSTRUCTIONS = (:Increment, :Decrement, :RightShift, :LeftShift, :Write, :Read, :LoopStart, :LoopEnd)
