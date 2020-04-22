@@ -9,7 +9,7 @@
 ## Installing
 From the Julia REPL:
 
-`julia> using Pkg; Pkg.pkg"add https://github.com/OTDE/GalaxyBrain.jl.git"`
+`pkg> add GalaxyBrain`
 
 ## About
 
